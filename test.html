@@ -6,7 +6,7 @@
 <script src="danish.js"></script>
 <style>
 body {
-	word-wrap: bnormal;
+	word-wrap: normal;
 }
 h3 {
 	margin: 0px;
@@ -25,6 +25,7 @@ code {
 function print(desc, array) {
 	document.write('<h3>'+desc+'</h3>');
 	for (var i=0;i<array.length;i++) {
+		//add zero-width space so the string is wordwrapped properly
 		document.write(array[i]+',&#8203;');
 	}
 	document.write('<br><br>');
