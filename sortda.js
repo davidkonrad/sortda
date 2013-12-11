@@ -24,18 +24,18 @@ Array.prototype.sortDa = function(aamode) {
 	        c=c.toLowerCase();
 	        for (var i=0;i<c.length;i++) {
 	            if (c.substr(i,2)==='aa') {
-					switch (aamode) {
-						case AA_FIRST : 
-							array.push(0);
-							break;
-						case AA_ARING : 
-							array.push(299);
-							break;
-						default :
-			                array.push(300); 
-							break;
-					}
-					i=i+1;
+			switch (aamode) {
+			    case AA_FIRST : 
+				array.push(0);
+				break;
+			    case AA_ARING : 
+				array.push(299);
+				break;
+			    default :
+			        array.push(300); 
+				break;
+			}
+			i=i+1;
 	            } else {
 	                switch (c.charCodeAt(i)) {
 	                    case 229 : //å
