@@ -12,13 +12,13 @@
 
 // aamodes
 var AA_FIRST =	1,  // aa is sorted to the beginning of the array, before a
-	AA_LAST =	2,	// the default - aa is sorted to the end of the array, after å
-	AA_ARING =	3;	// aa is considered equal with å
+    AA_LAST  =	2,  // the default - aa is sorted to the end of the array, after å
+    AA_ARING =	3;  // aa is considered equal with å
 
 Array.prototype.sortDa = function(aamode) {
 	this.sort(function(a,b) {
 	    var d, e, f;
-		aamode = (typeof aamode == "undefined") ? AA_LAST : aamode;
+	    aamode = (typeof aamode == "undefined") ? AA_LAST : aamode;
 	    function intArray(c) {
 	        var array=[];
 	        c=c.toLowerCase();
