@@ -1,7 +1,7 @@
 sortda
 ======
 
-Grammatical correct sorting of strings in the danish language. 
+Grammatical correct sorting of strings in the danish language.   
 Supports the special danish characters `æ`, `ø`, `å` and `aa` (double a). 
 
 ----------
