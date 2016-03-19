@@ -20,7 +20,7 @@ array.sortDa(AA_ARING) // aa is considered equal with å
 
 **Demonstration**
 
-Default browser `array.sort()` (in this case Chrome) :
+Default browser `array.sort()` (in this case Chrome) :  
 _Aakirkeby, Aalborg, Aalestrup, Aarhus, Albæk, Alem Kirkegård, Almind, Almindingen, Badskær Kirke, Bagå, Bådsgård Mark, Bådsgård Vig, Haarby Å, Haas, Halskov, Hastrup, Heerup, Hvidovre, Hågerup, København, Linette, Linned, Linné, Liseleje, Låsby, Lærkedal, Lærred, Læsø, Løftgaarde, Løftgårde, Løgstrup, Løgstør, Sorø, Sæby, Søllerød, Å Højrup, Ålestrup, Ørestaden_
 
 `array.sortDa(AA_FIRST)` :   
