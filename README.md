@@ -18,11 +18,14 @@ array.sortDa(AA_LAST)  // aa is sorted to the end of the array, after å (defaul
 array.sortDa(AA_ARING) // aa is considered equal with å
 ```
 
-**Example**
+**Demonstration**
 
-`AA_FIRST` : Aakirkeby, Aalborg, Aalestrup, Aarhus, Albæk, Alem Kirkegård, Almind, Almindingen, Badskær Kirke, Bagå, Bådsgård Mark, Bådsgård Vig, Haarby Å, Haas, Halskov, Hastrup, Heerup, Hvidovre, Hågerup, København, Linette, Linned, Linné, Liseleje, Lærkedal, Lærred, Læsø, Løftgaarde, Løftgårde, Løgstrup, Løgstør, Låsby, Sorø, Sæby, Søllerød, Ørestaden, Å Højrup, Ålestrup
+Example of the default browser `array.sort()` outcome when sorting on danish strings (in this case Chrome) : _Aakirkeby, Aalborg, Aalestrup, Aarhus, Albæk, Alem Kirkegård, Almind, Almindingen, Badskær Kirke, Bagå, Bådsgård Mark, Bådsgård Vig, Haarby Å, Haas, Halskov, Hastrup, Heerup, Hvidovre, Hågerup, København, Linette, Linned, Linné, Liseleje, Låsby, Lærkedal, Lærred, Læsø, Løftgaarde, Løftgårde, Løgstrup, Løgstør, Sorø, Sæby, Søllerød, Å Højrup, Ålestrup, Ørestaden_
 
-`AA_LAST` : Albæk, Alem Kirkegård, Almind, Almindingen, Badskær Kirke, Bagå, Bådsgård Mark, Bådsgård Vig, Halskov, Hastrup, Heerup, Hvidovre, Hågerup, Haarby Å, Haas, København, Linette, Linned, Linné, Liseleje, Lærkedal, Lærred, Læsø, Løftgårde, Løftgaarde, Løgstrup, Løgstør, Låsby, Sorø, Sæby, Søllerød, Ørestaden, Å Højrup, Ålestrup, Aakirkeby, Aalborg, Aalestrup, Aarhus
+Sorting the strings using `sortDa()` :   
+`AA_FIRST` : _Aakirkeby, Aalborg, Aalestrup, Aarhus, Albæk, Alem Kirkegård, Almind, Almindingen, Badskær Kirke, Bagå, Bådsgård Mark, Bådsgård Vig, Haarby Å, Haas, Halskov, Hastrup, Heerup, Hvidovre, Hågerup, København, Linette, Linned, Linné, Liseleje, Lærkedal, Lærred, Læsø, Løftgaarde, Løftgårde, Løgstrup, Løgstør, Låsby, Sorø, Sæby, Søllerød, Ørestaden, Å Højrup, Ålestrup_  
 
-`AA_ARING` : Albæk, Alem Kirkegård, Almindingen, Almind, Badskær Kirke, Bagå, Bådsgård Mark, Bådsgård Vig, Halskov, Hastrup, Heerup, Hvidovre, Hågerup, Haarby Å, Haas, København, Linette, Linned, Linné, Liseleje, Lærkedal, Lærred, Læsø, Løftgårde, Løftgaarde, Løgstrup, Løgstør, Låsby, Sorø, Sæby, Søllerød, Ørestaden, Å Højrup, Aakirkeby, Aalborg, Ålestrup, Aalestrup, Aarhus
+`AA_LAST` : _Albæk, Alem Kirkegård, Almind, Almindingen, Badskær Kirke, Bagå, Bådsgård Mark, Bådsgård Vig, Halskov, Hastrup, Heerup, Hvidovre, Hågerup, Haarby Å, Haas, København, Linette, Linned, Linné, Liseleje, Lærkedal, Lærred, Læsø, Løftgårde, Løftgaarde, Løgstrup, Løgstør, Låsby, Sorø, Sæby, Søllerød, Ørestaden, Å Højrup, Ålestrup, Aakirkeby, Aalborg, Aalestrup, Aarhus_
+
+`AA_ARING` : _Albæk, Alem Kirkegård, Almindingen, Almind, Badskær Kirke, Bagå, Bådsgård Mark, Bådsgård Vig, Halskov, Hastrup, Heerup, Hvidovre, Hågerup, Haarby Å, Haas, København, Linette, Linned, Linné, Liseleje, Lærkedal, Lærred, Læsø, Løftgårde, Løftgaarde, Løgstrup, Løgstør, Låsby, Sorø, Sæby, Søllerød, Ørestaden, Å Højrup, Aakirkeby, Aalborg, Ålestrup, Aalestrup, Aarhus_
 
