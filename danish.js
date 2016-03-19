@@ -4,10 +4,11 @@
  *
  */
 
-var strings=[
+var da_strings = [
 	'Aakirkeby',
 	'København',
 	'Ålestrup',
+	'Aalestrup',
 	'Ørestaden',
 	'Sorø',
 	'Hvidovre',
@@ -21,14 +22,12 @@ var strings=[
 	'Løgstrup',
 	'Haas',
 	'Hastrup',
-	'Hasselbo',
 	'Heerup',
 	'Halskov',
 	'Læsø',
 	'Lærred',
 	'Lærkedal',
-	'Løkken',
-	'Løgstrup',
+	'Låsby',
 	'Løftgårde',
 	'Løftgaarde',
 	'Hågerup',

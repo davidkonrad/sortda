@@ -1,46 +1,35 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="UTF-8">
-<script src="sortda.js"></script>
-<script src="danish.js"></script>
-<style>
-body {
-	word-wrap: normal;
-}
-h3 {
-	margin: 0px;
-	font-family : courier;
-}
-code {
-	font-size: 170%;
-	font-weight: 110;
-	color: gray;
-}
-</style>
+	<meta charset="utf8">
+	<script src="sortda.js"></script>
+	<script src="danish.js"></script>
+	<style>
+		body {
+			word-wrap: normal;
+		}
+		h4 {
+			margin: 5px 0px;
+		}
+		code {
+			color: darkgreen;
+			font-size: 125%;
+		}
+	</style>
 </head>
 <body>
 
 <script>
 function print(desc, array) {
-	document.write('<h3>'+desc+'</h3>');
-	for (var i=0;i<array.length;i++) {
-		//add zero-width space so the string is wordwrapped properly
-		document.write(array[i]+',&#8203;');
-	}
+	document.write('<h4>' + desc + '</h4>');
+	document.write(array.join(', '));
 	document.write('<br><br>');
 }
-
-var test = strings;
-print('Default sort', test.sortDa());
-
-var test = strings;
-print('Sort, <code>aa</code> before <code>å</code>', test.sortDa(AA_FIRST));
-
-var test = strings;
-print('Sort, <code>aa</code> equal to <code>å</code>', test.sortDa(AA_ARING));
+var test = da_strings;
+print('AA_LAST - <code>aa</code> is sorted to the end of the array, after <code>å</code>', test.sortDa(AA_LAST));
+print('AA_ARING - <code>aa</code> is sorted squal as <code>å</code>', test.sortDa(AA_ARING));
+print('AA_FIRST - <code>aa</code> is sorted to the beginning of the array, before <code>å</code>', test.sortDa(AA_FIRST));
 </script>
 
 </body>
 </html>
-
