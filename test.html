@@ -28,6 +28,7 @@ function print(desc, array) {
 	document.write('<br><br>');
 }
 var test = da_strings;
+print('Browser default <code>array.sort()</code>', test.sort());
 print('AA_LAST - <code>aa</code> is sorted to the end of the array, after <code>å</code>', test.sortDa(AA_LAST));
 print('AA_ARING - <code>aa</code> is sorted squal as <code>å</code>', test.sortDa(AA_ARING));
 print('AA_FIRST - <code>aa</code> is sorted to the beginning of the array, before <code>å</code>', test.sortDa(AA_FIRST));
