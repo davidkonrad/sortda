@@ -42,6 +42,9 @@ var da_strings = [
 	'Bådsgård Vig',
 	'Bådsgård Mark',
 	'Bagå',
+        'Bag',
+        'Bagere',
+        'Bager',
 	'Badskær Kirke'
 ];
 	

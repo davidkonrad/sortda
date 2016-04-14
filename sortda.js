@@ -58,9 +58,14 @@ Array.prototype.sortDa = function(aamode) {
 	    d=intArray(a), e=intArray(b);
 	    for (f=0;f<d.length;f++) {
 	        if (d[f]!=e[f]) {
-	            return d[f]-e[f];
+	        	if (f==e.length){
+	        		return 1; //d är ett längre ord än e
+	        	}else{
+	           		 return d[f]-e[f];
+	            }
 	        }
 	    }
+	    return -1;//e är ett längre ord än d
 	});
 	return this;
 };
